@@ -9,10 +9,13 @@ function Composepost() {
     const a = useContext(Context);
 
     function opencp() {
-        if(a.inputfield===false)
-       a.setinputfield(true)
-            }
+        if(a.inputfield===false) {
+            a.setinputfield(true)
+        } else {
             a.setinputfield(false);
+        }
+       
+            }
 
             
             
