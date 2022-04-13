@@ -21,9 +21,10 @@ function Inputarea() {
                 a.setpostvalue([...a.postvalue, {text: a.inputvalue , image: a.imglink} ]);
                 a.setimglink("");
                 a.setinputvalue("")
+                a.setinputfield(false);
             }
             else {
-                
+                alert("Post Something..!!")
                 
             }
             console.log(a.postvalue)
