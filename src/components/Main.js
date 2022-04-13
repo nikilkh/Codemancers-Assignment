@@ -37,8 +37,12 @@ gifmenu, setgifmenu, imglink, setimglink}
                 <Composepost/>
                 <Photovideo/>
                 <Livevideo/>
-                <X/>
+                
+
+                
             </div>
+            <X/>
+
         </div>
         <Inputarea/>
     </div>

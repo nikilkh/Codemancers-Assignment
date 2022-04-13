@@ -21,6 +21,7 @@
 .header {
   display: flex;
   
+  
 }
 
 
@@ -152,4 +153,8 @@ flex-wrap: wrap;
   margin: auto;
   padding-left:1px;
   padding-right: 5px;
+}
+
+.cancel {
+  margin-right: -5px
 }
