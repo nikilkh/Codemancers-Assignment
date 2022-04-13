@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+
+.maincontainer {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding-left:1px;
+  padding-right: 5px;
+  margin:auto
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parentheader {
+
+  display: flex;
+  justify-content: space-between;
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.header {
+  display: flex;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.inputarea {
+
+}
+
+.input {
+width:100%;
+resize:none; 
+height:80px; 
+font-size:x-large;
+  
+  
+  
+}
+.selectinput {
+  border: 3px solid wheat;
+}
+
+.footer {
+  border: 3px solid magenta;
+}
+
+.postbox {
+  width: 100%;
+  overflow-wrap:break-word ;
+  border: 2px solid rgb(186, 179, 166);
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+  font-size: x-large;
+  padding-top: 5px;
+  
+  
+}
+
+.closemain {
+  border: 3px solid green;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.emoji-icon {
+  cursor: pointer;
+  position: relative;
+  /* top: px;
+  left: 4px; */
+}
+
+.gifcontainer {
+ /* border: 3px solid black; */
+ border-radius: 5px;
+ 
+ display: flex;
+flex-wrap: wrap;
+  
+  
+}
+
+.gifimage {
+  height:50px ;
+  width:50px ;
+}
+
+.item {
+  margin-left: 2px;
+}
+
+.postdiv {
+  display: flex;
+  justify-content: end;
+  background-color: whitesmoke;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-right: -5px;
+}
+
+.postbutton {
+  width: 20%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #4267B2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.gifbutton {
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gifdiv {
+  display: flex;
+  justify-content: start;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(3, 3, 3);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-right: -5px;
+}
+
+.emojiicondiv {
+  display: flex;
+  justify-content: end;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(8, 8, 8);
+  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-right: 5px;
+  margin-right: -5px;
+  margin-top: -5px;
+}
+
+.postedgif, .confirmgif{
+  width: 100%;
+  
+}
+
+.outputpostdiv {
+  width: 50%;
+  margin: auto;
+  padding-left:1px;
+  padding-right: 5px;
 }
